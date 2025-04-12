@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio clinico</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/seccion.css">
+    <link rel="stylesheet" href="css/seccion2.css">
+    <link rel="stylesheet" href="servicios/servicios.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="img/logohe.svg" alt="Equipo de laboratorio automatizado" loading="lazy" width="200" height="100">
+                </div>
+                
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link active"><strong>Inicio</strong></a></li>
+                        <li class="nav-item"><a href="servicios/servicio.html" class="nav-link"> <strong>Servicios</strong></a></li>
+                        <li class="nav-item"><a href="nosotros/nosotros.html" class="nav-link"> <strong>Nosotros</strong></a></li>
+                        <li class="nav-item"><a href="contactos/contactos.html" class="nav-link"> <strong>Contacto</strong></a></li>
+                    </ul>
+                </nav>
+                
+                <div class="mobile-menu-btn" id="mobileMenuBtn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="lab-hero">
+        <!-- Slides -->
+        <div class="lab-slides">
+            <!-- Slide 1 -->
+            <div class="lab-slide active" data-slide="1">
+                <div class="slide-overlay"></div>
+                <div class="slide-container">
+                    <div class="slide-content">
+                        <h1>Diagnósticos <span class="highlight">Precisos</span></h1>
+                        <ul class="lab-features">
+                            <li><i class="fas fa-check-circle"></i> Resultados en 4-24 horas</li>
+                            <li><i class="fas fa-check-circle"></i> Equipos automatizados</li>
+                            <li><i class="fas fa-check-circle"></i> Control de calidad internacional</li>
+                        </ul>
+                        <div class="cta-buttons">
+                            <a href="/CONTACTOS/CONTACTOS.HTML" class="cta-btn primary">Agendar Cita <i class="fas fa-arrow-right"></i></a>
+                            <a href="/SERVICIOS/SERVICIO.HTML" class="cta-btn secondary">Nuestros Servicios</a>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="#" alt="Equipo de laboratorio automatizado" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="lab-slide" data-slide="2">
+                <div class="slide-overlay"></div>
+                <div class="slide-container">
+                    <div class="slide-content">
+                        <h1>Análisis <span class="highlight">Genéticos</span></h1>
+                        <ul class="lab-features">
+                            <li><i class="fas fa-check-circle"></i> Pruebas de farmacogenética</li>
+                            <li><i class="fas fa-check-circle"></i> Diagnóstico prenatal</li>
+                            <li><i class="fas fa-check-circle"></i> Oncología molecular</li>
+                        </ul>
+                        <div class="cta-buttons">
+                            <a href="#genetica" class="cta-btn primary">Conocer Más <i class="fas fa-arrow-right"></i></a>
+                            <a href="#especialistas" class="cta-btn secondary">Contactar Especialista</a>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="#" alt="Equipo de laboratorio automatizado" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="lab-slide" data-slide="3">
+                <div class="slide-overlay"></div>
+                <div class="slide-container">
+                    <div class="slide-content">
+                        <h1>Resultados <span class="highlight">Confiable</span></h1>
+                        <ul class="lab-features">
+                            <li><i class="fas fa-check-circle"></i> Informes detallados</li>
+                            <li><i class="fas fa-check-circle"></i> Plataforma digital 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> Interconsulta con especialistas</li>
+                        </ul>
+                        <div class="cta-buttons">
+                            <a href="/RESULTADOS/RESULT.HTML" class="cta-btn primary">Ver Resultados <i class="fas fa-arrow-right"></i></a>
+                            <a href="#telemedicina" class="cta-btn secondary">Consulta en Línea</a>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="#" alt="Equipo de laboratorio automatizado" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles -->
+        <div class="slider-controls">
+            <button class="slider-prev" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="slider-next" aria-label="Slide siguiente"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <!-- Scroll Down -->
+       
+        
+        <!-- Certificaciones -->
+        <div class="certifications">
+            <div class="container">
+                <p><strong>Convenios:</strong></p>
+                <div class="cert-logos">
+                    <img src="bermanlab.svg" alt="Certificación ISO" loading="lazy">
+                    <img src="synlab.svg" alt="Partner Roche" loading="lazy">
+                    <img src="biomedica.svg" alt="Certificación CLIA" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lab-container">
+        <!-- Panel izquierdo para promociones -->
+        <div class="promo-panel">
+            <div class="panel-header">
+                <h2><i class="fas fa-percentage"></i> Promociones del Mes</h2>
+                <div class="promo-timer" id="promoTimer">
+                    <span id="days">00</span>d : 
+                    <span id="hours">00</span>h : 
+                    <span id="minutes">00</span>m
+                </div>
+            </div>
+            
+            <div class="promo-slider">
+                <div class="promo-slide active">
+                    <div class="promo-badge">-30%</div>
+                    <img src="portada1.jpg" alt="Promoción 1">
+                    <div class="promo-content">
+                        <h3>Perfil Lipídico Completo</h3>
+                        <p>Incluye colesterol total, HDL, LDL y triglicéridos</p>
+                        <div class="promo-price">
+                            <span class="old-price">$120.000</span>
+                            <span class="new-price">$84.000</span>
+                        </div>
+                        <button class="promo-btn">Agendar ahora</button>
+                    </div>
+                </div>
+                
+                <div class="promo-slide">
+                    <div class="promo-badge">2x1</div>
+                    <img src="portada 2.jpg" alt="Promoción 2">
+                    <div class="promo-content">
+                        <h3>Pruebas de Alergias</h3>
+                        <p>Panel completo de alergenos respiratorios</p>
+                        <div class="promo-price">
+                            <span class="old-price">$95.000</span>
+                            <span class="new-price">$47.500 c/u</span>
+                        </div>
+                        <button class="promo-btn">Agendar ahora</button>
+                    </div>
+                </div>
+                
+                <div class="promo-slide">
+                    <div class="promo-badge">-25%</div>
+                    <img src="portada 3.jpg" alt="Promoción 3">
+                    <div class="promo-content">
+                        <h3>Chequeo General</h3>
+                        <p>Hemograma, glicemia, creatinina y más</p>
+                        <div class="promo-price">
+                            <span class="old-price">$80.000</span>
+                            <span class="new-price">$60.000</span>
+                        </div>
+                        <button class="promo-btn">Agendar ahora</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="promo-nav">
+                <button class="nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="promo-dots"></div>
+                <button class="nav-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        
+        <!-- Panel derecho para servicios 2x2 -->
+        <div class="services-panel">
+            <div class="services-header">
+                <h2><i class="fas fa-flask"></i> Laboratorio Clinico</h2>
+                <p> <strong>Análisis clínicos</strong></p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Fila 1 -->
+                <div class="service-card" data-service="hematologia">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Hematología</h3>
+                    <p>Análisis completos de sangre y sus componentes</p>
+                    <div class="service-details" id="hematologia-details">
+                        <ul>
+                            <li>Hemograma completo</li>
+                            <li>Pruebas de coagulación</li>
+                            <li>Velocidad de sedimentación</li>
+                        </ul>
+                        <button class="details-btn">Cerrar </button>
+                        
+                    </div>
+                    <button class="service-btn">Ver detalles</button>
+                </div>
+                
+                <div class="service-card" data-service="bioquimica">
+                    <div class="service-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Bioquímica</h3>
+                    <p>Perfiles metabólicos y enzimáticos</p>
+                    <div class="service-details" id="bioquimica-details">
+                        <ul>
+                            <li>Perfil lipídico</li> 
+                            <li>Pruebas hepáticas</li>
+                            <li>Electrolitos séricos</li>
+                        </ul>
+                        <button class="details-btn">Cerrar</button>
+                    </div>
+                    <button class="service-btn">Ver detalles</button>
+                </div>
+                
+                <!-- Fila 2 -->
+                <div class="service-card" data-service="microbiologia">
+                    <div class="service-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Microbiología</h3>
+                    <p>Estudios de microorganismos y cultivos</p>
+                    <div class="service-details" id="microbiologia-details">
+                        <ul>
+                            <li>Urocultivos</li>
+                            <li>Hemocultivos</li>
+                            <li>Antibiogramas</li>
+                        </ul>
+                        <button class="details-btn">Cerrar</button>
+                    </div>
+                    <button class="service-btn">Ver detalles</button>
+                </div>
+                
+                <div class="service-card" data-service="inmunologia">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Inmunología</h3>
+                    <p>Pruebas de respuesta inmunológica</p>
+                    <div class="service-details" id="inmunologia-details">
+                        <ul>
+                            <li>Pruebas de alergias</li>
+                            <li>Marcadores tumorales</li>
+                            <li>Enfermedades autoinmunes</li>
+                        </ul>
+                        <button class="details-btn">Cerrar</button>
+                    </div>
+                    <button class="service-btn">Ver detalles</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/header.js"></script>
+    <script src="js/seccion.js"></script>
+
+
+</body>
+</html>
